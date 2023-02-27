@@ -1,6 +1,7 @@
 package net.leventeand1.soul;
 
 import com.mojang.logging.LogUtils;
+import net.leventeand1.soul.block.ModBlocks;
 import net.leventeand1.soul.item.ModCreativeModTabs;
 import net.leventeand1.soul.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -28,7 +29,7 @@ public class SoulMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -44,6 +45,7 @@ public class SoulMod {
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == ModCreativeModTabs.ADVANCED_SOUL_SAND) {
             event.accept(ModItems.SOUL_SAND_DUST);
+            event.accept(ModBlocks.REF_SOUL_SAND);
         }
     }
 
