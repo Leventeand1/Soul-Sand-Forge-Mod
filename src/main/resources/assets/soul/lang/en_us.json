@@ -1,5 +1,15 @@
 {
   "item.soul.soul_dust": "Soul Sand Dust",
+
   "creativemodetab.advanced_soul_sand": "Advanced Soul Sand",
-  "block.soul.ref_soul_sand": "Reinforced Soul Sand"
+
+  "block.soul.ref_soul_sand": "Reinforced Soul Sand",
+
+  "item.soul.soul_sand_sword": "Soul Sand Sword",
+  "item.soul.soul_sand_pickaxe": "Soul Sand Pickaxe",
+  "item.soul.soul_sand_shovel": "Soul Sand Shovel",
+  "item.soul.soul_sand_axe": "Soul Sand Axe",
+  "item.soul.soul_sand_hoe": "Soul Sand Hoe",
+
+  "effect.soul.curse_of_the_souls": "Curse Of The Souls"
 }
