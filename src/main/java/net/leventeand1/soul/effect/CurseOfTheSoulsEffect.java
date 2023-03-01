@@ -13,7 +13,7 @@ public class CurseOfTheSoulsEffect extends MobEffect {
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level.isClientSide()) {
-            pLivingEntity.hurt(DamageSource.MAGIC, 0.3f);
+            pLivingEntity.hurt(DamageSource.MAGIC, 0.5f);
 
             pLivingEntity.setSpeed(-9f);
         }

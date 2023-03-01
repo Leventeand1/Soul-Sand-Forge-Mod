@@ -5,6 +5,7 @@ import net.leventeand1.soul.block.ModBlocks;
 import net.leventeand1.soul.effect.ModEffects;
 import net.leventeand1.soul.item.ModCreativeModTabs;
 import net.leventeand1.soul.item.ModItems;
+import net.leventeand1.soul.potion.ModPotion;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,7 @@ public class SoulMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEffects.register(modEventBus);
+        ModPotion.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, SoulMod.MOD_ID);
 
-    public static final RegistryObject<MobEffect> CURSE_OF_THE_SOULS = MOB_EFFECTS.register("curse_of_the_souls", () -> new CurseOfTheSoulsEffect(MobEffectCategory.HARMFUL, 1068268));
+    public static final RegistryObject<MobEffect> CURSE_OF_THE_SOULS = MOB_EFFECTS.register("curse_of_the_souls", () -> new CurseOfTheSoulsEffect(MobEffectCategory.HARMFUL, 352922));
 
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
