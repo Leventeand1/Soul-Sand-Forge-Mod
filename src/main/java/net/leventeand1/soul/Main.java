@@ -6,7 +6,6 @@ import net.leventeand1.soul.effect.ModEffects;
 import net.leventeand1.soul.item.ModCreativeModTabs;
 import net.leventeand1.soul.item.ModItems;
 import net.leventeand1.soul.potion.ModPotion;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -20,14 +19,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(SoulMod.MOD_ID)
-public class SoulMod {
+@Mod(Main.MOD_ID)
+public class Main {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "soul";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public SoulMod() {
+    public Main() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
@@ -55,6 +54,10 @@ public class SoulMod {
             event.accept(ModItems.SOUL_SAND_SHOVEL);
             event.accept(ModItems.SOUL_SAND_AXE);
             event.accept(ModItems.SOUL_SAND_HOE);
+            event.accept(ModItems.SOUL_SAND_HELMET);
+            event.accept(ModItems.SOUL_SAND_CHESTPLATE);
+            event.accept(ModItems.SOUL_SAND_LEGGINGS);
+            event.accept(ModItems.SOUL_SAND_BOOTS);
         }
     }
 

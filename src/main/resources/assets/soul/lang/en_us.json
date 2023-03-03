@@ -15,5 +15,10 @@
 
   "item.minecraft.potion.effect.curse_of_the_souls_potion": "Curse Of The Souls Potion",
   "item.minecraft.splash_potion.effect.curse_of_the_souls_potion": "Curse Of The Souls Splash Potion",
-  "item.minecraft.lingering_potion.effect.curse_of_the_souls_potion": "Curse Of The Souls Lingering Potion"
+  "item.minecraft.lingering_potion.effect.curse_of_the_souls_potion": "Curse Of The Souls Lingering Potion",
+
+  "item.soul.soul_sand_helmet": "Soul Sand Helmet",
+  "item.soul.soul_sand_chestplate": "Soul Sand Chestplate",
+  "item.soul.soul_sand_leggings": "Soul Sand Leggings",
+  "item.soul.soul_sand_boots": "Soul Sand Boots"
 }
