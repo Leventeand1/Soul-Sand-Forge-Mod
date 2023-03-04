@@ -3,6 +3,7 @@ package net.leventeand1.soul;
 import com.mojang.logging.LogUtils;
 import net.leventeand1.soul.block.ModBlocks;
 import net.leventeand1.soul.effect.ModEffects;
+import net.leventeand1.soul.enchantment.ModEnchantments;
 import net.leventeand1.soul.item.ModCreativeModTabs;
 import net.leventeand1.soul.item.ModItems;
 import net.leventeand1.soul.potion.ModPotion;
@@ -33,6 +34,7 @@ public class Main {
         ModBlocks.register(modEventBus);
         ModEffects.register(modEventBus);
         ModPotion.register(modEventBus);
+        ModEnchantments.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
