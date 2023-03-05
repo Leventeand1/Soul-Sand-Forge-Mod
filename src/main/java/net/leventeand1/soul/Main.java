@@ -65,6 +65,7 @@ public class Main {
             event.accept(ModBlocks.STRIPPED_AVATAR_WOOD);
             event.accept(ModBlocks.AVATAR_LEAVES);
             event.accept(ModBlocks.AVATAR_SAPLING);
+            event.accept(ModItems.SOUL_SAND_APPLE);
 
         }
     }

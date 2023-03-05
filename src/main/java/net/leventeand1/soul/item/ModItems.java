@@ -2,6 +2,7 @@ package net.leventeand1.soul.item;
 
 import net.leventeand1.soul.Main;
 import net.leventeand1.soul.armor.ModArmorMaterial;
+import net.leventeand1.soul.item.food.ModFoods;
 import net.leventeand1.soul.tool.ModItemTier;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -10,12 +11,17 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Objects;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
 
     // Regular Items
 
     public static final RegistryObject<Item> SOUL_SAND_DUST = ITEMS.register("soul_dust", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SOUL_SAND_APPLE = ITEMS.register("soul_sand_apple", () ->
+            new Item(new Item.Properties().food(ModFoods.SOUL_SAND_APPLE)));
 
     // Tools
 

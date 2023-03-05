@@ -2,6 +2,7 @@ package net.leventeand1.soul.datagen;
 
 import net.leventeand1.soul.Main;
 import net.leventeand1.soul.item.ModItems;
+import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 ;

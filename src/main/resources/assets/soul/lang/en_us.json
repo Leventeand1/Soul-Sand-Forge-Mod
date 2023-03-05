@@ -30,5 +30,7 @@
   "block.soul.stripped_avatar_wood": "Stripped Avatar Wood",
   "block.soul.avatar_planks": "Avatar Planks",
   "block.soul.avatar_leaves": "Avatar Leaves",
-  "block.soul.avatar_sapling": "Avatar Sapling"
+  "block.soul.avatar_sapling": "Avatar Sapling",
+
+  "item.soul.soul_sand_apple": "Soul Sand Apple"
 }
