@@ -58,6 +58,14 @@ public class Main {
             event.accept(ModItems.SOUL_SAND_CHESTPLATE);
             event.accept(ModItems.SOUL_SAND_LEGGINGS);
             event.accept(ModItems.SOUL_SAND_BOOTS);
+            event.accept(ModBlocks.AVATAR_LOG);
+            event.accept(ModBlocks.AVATAR_WOOD);
+            event.accept(ModBlocks.AVATAR_PLANKS);
+            event.accept(ModBlocks.STRIPPED_AVATAR_LOG);
+            event.accept(ModBlocks.STRIPPED_AVATAR_WOOD);
+            event.accept(ModBlocks.AVATAR_LEAVES);
+            event.accept(ModBlocks.AVATAR_SAPLING);
+
         }
     }
 

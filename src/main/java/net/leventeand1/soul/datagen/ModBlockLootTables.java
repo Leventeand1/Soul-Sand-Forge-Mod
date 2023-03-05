@@ -21,6 +21,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.REF_SOUL_SAND.get());
 
         add(ModBlocks.REF_SOUL_SAND.get(), (block -> createSingleItemTable(ModItems.SOUL_SAND_DUST.get())));
+
+        this.dropSelf(ModBlocks.AVATAR_LOG.get());
+        this.dropSelf(ModBlocks.AVATAR_WOOD.get());
+        this.dropSelf(ModBlocks.AVATAR_PLANKS.get());
+        this.dropSelf(ModBlocks.STRIPPED_AVATAR_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_AVATAR_WOOD.get());
+        this.dropSelf(ModBlocks.AVATAR_SAPLING.get());
+
+        this.add(ModBlocks.AVATAR_LEAVES.get(), (block) ->
+                createLeavesDrops(block, ModBlocks.AVATAR_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     @Override

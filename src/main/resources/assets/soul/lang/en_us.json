@@ -22,5 +22,13 @@
   "item.soul.soul_sand_leggings": "Soul Sand Leggings",
   "item.soul.soul_sand_boots": "Soul Sand Boots",
 
-  "enchantment.soul.soul_power": "Soul Power"
+  "enchantment.soul.soul_power": "Soul Power",
+
+  "block.soul.avatar_log": "Avatar Log",
+  "block.soul.stripped_avatar_log": "Stripped Avatar Log",
+  "block.soul.avatar_wood": "Avatar Wood",
+  "block.soul.stripped_avatar_wood": "Stripped Avatar Wood",
+  "block.soul.avatar_planks": "Avatar Planks",
+  "block.soul.avatar_leaves": "Avatar Leaves",
+  "block.soul.avatar_sapling": "Avatar Sapling"
 }

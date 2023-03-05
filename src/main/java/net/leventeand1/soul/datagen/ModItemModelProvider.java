@@ -1,10 +1,12 @@
 package net.leventeand1.soul.datagen;
 
 import net.leventeand1.soul.Main;
+import net.leventeand1.soul.block.ModBlocks;
 import net.leventeand1.soul.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -27,6 +29,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SOUL_SAND_CHESTPLATE);
         simpleItem(ModItems.SOUL_SAND_LEGGINGS);
         simpleItem(ModItems.SOUL_SAND_BOOTS);
+        saplingItem(ModBlocks.AVATAR_SAPLING);
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Main.MOD_ID, "block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
