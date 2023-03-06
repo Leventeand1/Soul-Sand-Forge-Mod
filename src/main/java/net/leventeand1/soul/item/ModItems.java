@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> SOUL_SAND_APPLE = ITEMS.register("soul_sand_apple", () ->
             new Item(new Item.Properties().food(ModFoods.SOUL_SAND_APPLE)));
 
+    public static final RegistryObject<Item> YOVO_FRUIT = ITEMS.register("yovo_fruit", () ->
+            new Item(new Item.Properties().food(ModFoods.YOVO_FRUIT)));
+
     // Tools
 
     public static final RegistryObject<Item> SOUL_SAND_SWORD = ITEMS.register("soul_sand_sword", () -> new SwordItem(ModItemTier.SOUL_SAND, 8, 4f, new Item.Properties()));

@@ -32,6 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SOUL_SAND_BOOTS);
         saplingItem(ModBlocks.AVATAR_SAPLING);
         simpleItem(ModItems.SOUL_SAND_APPLE);
+        simpleItem(ModItems.YOVO_FRUIT);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
