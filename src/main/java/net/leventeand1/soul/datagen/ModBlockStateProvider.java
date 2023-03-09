@@ -32,6 +32,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.AVATAR_LEAVES);
         saplingBlock(ModBlocks.AVATAR_SAPLING);
 
+
+
         simpleBlockItem(ModBlocks.AVATAR_LOG.get(), models().withExistingParent("soul:avatar_log",
                 "minecraft:block/cube_column"));
         simpleBlockItem(ModBlocks.AVATAR_WOOD.get(), models().withExistingParent("soul:avatar_wood",

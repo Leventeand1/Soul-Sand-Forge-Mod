@@ -28,23 +28,23 @@ public class ModBlocks {
     public static final RegistryObject<Block> REF_SOUL_SAND = registerBlock("ref_soul_sand", RefSoulSand::new);
 
     public static final RegistryObject<Block> AVATAR_LOG = registerBlock("avatar_log", () ->
-            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(5f)
+            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(1f)
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> AVATAR_WOOD = registerBlock("avatar_wood", () ->
-            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(5f)
+            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(1f)
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> STRIPPED_AVATAR_LOG = registerBlock("stripped_avatar_log", () ->
-            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(5f)
+            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(1f)
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> STRIPPED_AVATAR_WOOD = registerBlock("stripped_avatar_wood", () ->
-            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(5f)
+            new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(1f)
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> AVATAR_PLANKS = registerBlock("avatar_planks", () ->
-            new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(5f)){
+            new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1f)){
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
                     return true;
@@ -62,7 +62,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> AVATAR_LEAVES = registerBlock("avatar_leaves", () ->
-            new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).strength(5f)){
+            new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).strength(0.4f)){
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
                     return true;

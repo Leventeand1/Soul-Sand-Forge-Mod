@@ -19,7 +19,7 @@ modId="soul" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="${file.jarVersion}" #mandatory
+version="0.0.1-1.19.3" #mandatory
  # A display name for the mod
 displayName="Advanced Soul Sand" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -27,9 +27,9 @@ displayName="Advanced Soul Sand" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="" #optional
 # A text field displayed in the mod UI
 authors="Leventeand1" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,11 +42,10 @@ authors="Leventeand1" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+This mod brings an item into the game called Soul Sand Dust.
+You only get this if your shovel has the silk touch enchant. You need this powder for all soul sand items so you can craft them. This mod brings many items to the game, but I would like to highlight one of the many. The Yovo Fruit. This fruit is not yet found on Avatar Trees, but they can be crafted. I hope you like this mod. I worked on this a lot. If you find errors or bugs, please let me know. I will try to fix them as soon as possible. I wish you a good game!
 
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Source code:Leventeand1/Soul-Sand-Forge-Mod (github.com)
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.soul]] #optional

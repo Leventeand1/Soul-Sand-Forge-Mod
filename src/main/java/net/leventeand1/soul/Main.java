@@ -66,6 +66,7 @@ public class Main {
             event.accept(ModBlocks.AVATAR_LEAVES);
             event.accept(ModBlocks.AVATAR_SAPLING);
             event.accept(ModItems.SOUL_SAND_APPLE);
+            event.accept(ModItems.YOVO_FRUIT);
 
         }
     }
